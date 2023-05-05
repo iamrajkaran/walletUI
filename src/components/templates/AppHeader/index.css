@@ -1,0 +1,29 @@
+/* Style for the links container */
+.links-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* Style for the links */
+  .links-container a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    color: blue;
+    font-weight: bold;
+  }
+
+  /* Style for the hover effect */
+  .links-container a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .links-container a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    color: green; /* Added this line to set the color to green */
+    font-weight: bold;
+  }

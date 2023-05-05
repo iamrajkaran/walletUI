@@ -1,0 +1,134 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.module {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+}
+
+.module .row:first-child {
+  align-items: flex-start;
+}
+
+/* .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+} */
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* .label {
+  flex-basis: 80px;
+  flex-shrink: 0;
+} */
+
+.input-field {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  max-width: 100%;
+}
+
+.submit-btn,
+.reset-btn,
+.logout-btn {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-align: left;
+}
+
+.label-container > span {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.label-container > span,
+.label-container > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.label-container > div {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.select-option {
+  margin:auto;
+}
+
+.logout-btn {
+  width: 100%;
+}
+/* .row label {
+  margin-right: 10px;
+} */
+/*
+input[type="text"],
+select {
+
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-right: 10px;
+} */
+select {
+  margin: auto;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* select {
+  margin-right: 10px;
+} */

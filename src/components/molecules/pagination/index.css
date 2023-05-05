@@ -1,0 +1,25 @@
+.wrapper:hover > div,
+.wrapper:hover:before {
+transform: none;
+}
+.wrapper > div,
+.wrapper:before {
+will-change: transform;
+transition: .3s transform cubic-bezier(.25,.46,.45,1);
+}
+
+.outer {
+display: inline-block;
+width: 80%;
+padding: 1em;
+color: white;
+}
+
+.heading {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+text-align: center;
+font-size: 2.5rem;
+text-transform: uppercase;
+color: #fff;
+}
