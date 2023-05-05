@@ -1,4 +1,5 @@
 1. Functional Requirements
+    
     Page 1,
         1. Initially if no wallet is configured,
         show a simple input field asking for Username,
@@ -23,6 +24,7 @@
         4.Show a link in page 1 to visit page 2, Wallet
         transactions
 
+    
     Page 2
         5. show a table of all the transactions
         available for the wallet
@@ -33,8 +35,12 @@
             3.Export CSV file of all transactions available
 
 2. What is not covered?
+    
     Better CSS for viewing
     media queries
 
 3. Environment used:
+    
     Node v12.22.11
+    
+You can use back for this with this repo: https://github.com/iamrajkaran/walletSystem
